@@ -8,6 +8,7 @@ Next.js starter project with typescript, emotion, immer, hooks, eslint, prettier
 * CSS-in-JS with native CSS syntax powered by Emotion 
 * Unit tests with Jest
 * Integration tests with Cypress
+* Nice UI's for both test frameworks with real-time watchers via native Cypress and Majestic
 * Storybook with Typescript, React and Hook support
 
 ## Getting started
