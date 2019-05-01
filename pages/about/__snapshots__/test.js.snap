@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`With React Testing Library Snapshot Should match Snapshot 1`] = `
+<DocumentFragment>
+  <main>
+    <h1>
+      About next-starter
+    </h1>
+    <h2>
+      This next.js starter kit includes:
+    </h2>
+    <ul>
+      <li>
+        typescript
+      </li>
+      <li>
+        eslint
+      </li>
+      <li>
+        prettier
+      </li>
+      <li>
+        emotion
+      </li>
+      <li>
+        hooks
+      </li>
+      <li>
+        immer
+      </li>
+      <li>
+        jest
+      </li>
+      <li>
+        cypress
+      </li>
+      <li>
+        storybook
+      </li>
+    </ul>
+    <p>
+      Your user agent: 
+    </p>
+    <a
+      href="/"
+    >
+      back
+    </a>
+  </main>
+</DocumentFragment>
+`;

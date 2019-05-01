@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "src",
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "lib": ["es5", "es6", "es7", "es2017", "dom"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "preserveConstEnums": true,
+    "outDir": "build/lib",
+    "removeComments": false,
+    "rootDirs": ["app", "modules", "pages"],
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "target": "esnext"
+  },
+  "include": ["app/**/*", "modules/**/*", "pages/**/*"],
+  "exclude": [".*", "cypress", "node_modules"]
+}
