@@ -21,9 +21,42 @@ Next.js starter project with typescript, hooks, eslint, prettier, immer, emotion
 ### `yarn run dev`
 Runs development server on http://localhost:3000. Page is hot reloading on code changes.
 
-### `yarn run ...`
-...
+### `yarn run build`
+Build application for production use.
 
+### `yarn run start`
+Start built application. You need to run `build` first.
+
+### `yarn run test`
+Run all tests.
+
+### `yarn run test:unit`
+Run all unit tests with jest.
+
+### `yarn run test:unit:coverage`
+Run all unit tests with jest and generate coverage reports. This will fail if constraints `coverageThreshold` in `jest.config.js` are violated.
+
+### `yarn run test:unit:update`
+Run all unit tests with jest and update all outdated snapshots.
+
+### `yarn run test:unit:ui`
+Run majestic server to control jest via its UI.
+
+### `yarn run test:e2e`
+Run all integration tests with headless cypress.
+
+### `yarn run test:e2e:ui`
+Run all integration tests with cypress UI.
+
+### `yarn run typecheck`
+Perform type analysis on all source files.
+
+### `yarn run storybook`
+Run Storybook server.
+
+### `yarn run storybook:build`
+Build Storybook documentation for production use.
+    
 ## Built upon fabulous libraries and tools
 
 This starter pack has solutions for Rendering, Styling, Routing, Server-Side-Rendering, Type checking, Linting, Testing, Documentation and Building   
@@ -44,17 +77,6 @@ In this starter project, hooks and context are used to create a simple and versa
 ### [Immer](https://github.com/immerjs/immer)
 Very easy to use immutable state. Used for custom store implementation.
 
-### [Babel](https://github.com/babel/babel)
-Foundation of every modern JavaScript application stack. Compiles next-generation code into natively supported code.
-
-*Implicitly used by Next.js*
-
-### [ESLint](https://github.com/eslint/eslint)
-Parse source code and find unwanted patterns. Great way to establish best practices and a common code style. 
-
-### [Prettier](https://github.com/prettier/prettier)
-Complements ESLint to support a consistent and aesthetic code style. Most formatting issues can be automatically fixed.  
-
 ### [Emotion](https://github.com/emotion-js/emotion)
 Full fledged CSS-in-JS solution with native CSS syntax. 
 
@@ -72,5 +94,19 @@ For Browser-based integration tests. Watches source code and automatically execu
 
 ### [Storybook](https://github.com/storybooks/storybook)
 Visualize isolated components for development and testing. Also for creating style guides. Addons provide additional benefits like switching between mobile viewports or automatic a11y profiling. 
+
+### [ESLint](https://github.com/eslint/eslint)
+Parse source code and find unwanted patterns. Great way to establish best practices and a common code style. 
+
+### [Prettier](https://github.com/prettier/prettier)
+Complements ESLint to support a consistent and aesthetic code style. Most formatting issues can be automatically fixed.  
+
+### [Husky](https://github.com/typicode/husky)
+Handy git hooks to prevent bad `git commit` or `git push`.
+
+### [Babel](https://github.com/babel/babel)
+Foundation of every modern JavaScript application stack. Compiles next-generation code into natively supported code.
+
+*Implicitly used by Next.js*
 
 
