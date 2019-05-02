@@ -34,10 +34,19 @@ class MyDocument extends Document {
             body {
               padding: 3rem 1rem;
               margin: 0;
-              background: papayawhip;
+              background: rgb(240, 230, 220);
               min-height: 100%;
               font-family: Helvetica, Arial, sans-serif;
-              font-size: 24px;
+              font-size: 18px;
+            }
+            
+            a {
+              color: rgb(20, 90, 240);
+              text-decoration: none;
+              
+              &:hover {
+                text-decoration: underline;
+              }
             }
           `}
         />

@@ -23,9 +23,6 @@ exports[`With React Testing Library Snapshot Should match Snapshot 1`] = `
         emotion
       </li>
       <li>
-        hooks
-      </li>
-      <li>
         immer
       </li>
       <li>
@@ -36,6 +33,9 @@ exports[`With React Testing Library Snapshot Should match Snapshot 1`] = `
       </li>
       <li>
         storybook
+      </li>
+      <li>
+        husky
       </li>
     </ul>
     <p>

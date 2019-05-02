@@ -12,18 +12,11 @@ const Home: NextFunctionComponent = (): JSX.Element => (
     </Head>
     <h1>Welcome to next-starter</h1>
     <SearchGifs />
-    <ul>
-      <li>
-        <Link href="/about">
-          <a>about</a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/emotion">
-          <a>emotion</a>
-        </Link>
-      </li>
-    </ul>
+    <footer>
+      <Link href="/about">
+        <a>about</a>
+      </Link>
+    </footer>
   </main>
 )
 

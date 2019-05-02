@@ -1,10 +1,20 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { NextFunctionComponent } from 'next'
+import styled from '@emotion/styled'
 
 type Props = {
   onQueryChange?: Function
 }
+
+const Input = styled.input`
+  padding: 0.2em;
+  font-size: 1.2em;
+  
+  &:hover {
+    border: 2px solid rgb(200, 200, 200);
+  }
+`
 
 const SearchField: NextFunctionComponent<Props> = ({ onQueryChange }): JSX.Element => {
   const onSearchChange = (e: React.ChangeEvent<HTMLInputElement>): void => {
@@ -16,10 +26,10 @@ const SearchField: NextFunctionComponent<Props> = ({ onQueryChange }): JSX.Eleme
   
   return (
     <div>
-      <input
+      <Input
         className="search-field"
         type="search"
-        placeholder="search for something"
+        placeholder="search for gifs"
         onChange={onSearchChange}
       />
     </div>
