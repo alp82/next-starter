@@ -20,11 +20,11 @@ const About: NextFunctionComponent<Props> = ({ userAgent }): JSX.Element => (
       <li>eslint</li>
       <li>prettier</li>
       <li>emotion</li>
-      <li>hooks</li>
       <li>immer</li>
       <li>jest</li>
       <li>cypress</li>
       <li>storybook</li>
+      <li>husky</li>
     </ul>
     <p>Your user agent: {userAgent}</p>
     <Link href="/">

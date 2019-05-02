@@ -1,4 +1,5 @@
 .idea
+.next
 cypress/videos/*
 node_modules
 *.iml
