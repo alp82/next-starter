@@ -6,8 +6,8 @@ Next.js starter project with typescript, hooks, eslint, prettier, immer, emotion
 * Store without a library by using react hooks and context api
 * Immer integration for easy updates of immutable data
 * CSS-in-JS with native CSS syntax powered by Emotion 
-* Unit tests with Jest
-* Integration tests with Cypress
+* Unit tests with Jest and TypeScript
+* Integration tests with Cypress and TypeScript     
 * Nice UI's for both test frameworks with real-time watchers via native Cypress and Majestic
 * Storybook with Typescript, React and Hook support
 * Git hooks to prevent committing and pushing bad code

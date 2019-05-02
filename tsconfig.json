@@ -27,7 +27,7 @@
     "strictNullChecks": true,
     "suppressImplicitAnyIndexErrors": true,
     "target": "esnext",
-    "types": ["node", "@emotion/core"]
+    "types": ["node", "@emotion/core", "jest", "cypress"]
   },
   "include": ["app/**/*", "modules/**/*", "pages/**/*"],
   "exclude": [".*", "cypress", "node_modules"]

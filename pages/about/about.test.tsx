@@ -3,7 +3,7 @@
 import React from 'react'
 import { render } from 'react-testing-library'
 
-import About from './index.tsx'
+import About from './index'
 
 describe('With React Testing Library', () => {
   it('Shows "Hello world!"', () => {
