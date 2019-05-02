@@ -1,5 +1,5 @@
 # next-starter
-Next.js starter project with typescript, emotion, immer, hooks, eslint, prettier, jest, cypress and storybook
+Next.js starter project with typescript, hooks, eslint, prettier, immer, emotion, jest, cypress and storybook
 
 ## Features
 * Recommended defaults for typing and linting
@@ -15,3 +15,62 @@ Next.js starter project with typescript, emotion, immer, hooks, eslint, prettier
 * Clone this repository and `cd` into it
 * `yarn install`
 * `yarn run dev`
+
+## All commands
+
+### `yarn run dev`
+Runs development server on http://localhost:3000. Page is hot reloading on code changes.
+
+### `yarn run ...`
+...
+
+## Built upon fabulous libraries and tools
+
+This starter pack has solutions for Rendering, Styling, Routing, Server-Side-Rendering, Type checking, Linting, Testing, Documentation and Building   
+
+### [Next.js](https://github.com/zeit/next.js/https://github.com/zeit/next.js/)
+A great starting point that provides awesome features out-of-the-box. Hightlights are server-side-rendering, seo-readiness, code splitting, routing and prefetching support.
+
+### [TypeScript](https://github.com/Microsoft/TypeScript)
+The addition of types to JavaScript allows code-completion and better static code analysis. 
+
+### [React](https://github.com/facebook/react/) 
+Rendering library that makes component-based development easy and fun. Functional components in combination with hooks and context API allow flexible adjustments to many application needs.
+
+In this starter project, hooks and context are used to create a simple and versatile store.
+
+*Implicitly used by Next.js*
+
+### [Immer](https://github.com/immerjs/immer)
+Very easy to use immutable state. Used for custom store implementation.
+
+### [Babel](https://github.com/babel/babel)
+Foundation of every modern JavaScript application stack. Compiles next-generation code into natively supported code.
+
+*Implicitly used by Next.js*
+
+### [ESLint](https://github.com/eslint/eslint)
+Parse source code and find unwanted patterns. Great way to establish best practices and a common code style. 
+
+### [Prettier](https://github.com/prettier/prettier)
+Complements ESLint to support a consistent and aesthetic code style. Most formatting issues can be automatically fixed.  
+
+### [Emotion](https://github.com/emotion-js/emotion)
+Full fledged CSS-in-JS solution with native CSS syntax. 
+
+### [Jest](https://github.com/facebook/jest)
+Testing framework with many built-in features like code coverage or snaptshot testing.
+
+[react-testing-library](https://github.com/testing-library/react-testing-library) is included to provide a lightweight toolset for testing react components. It's a great alternative to enzyme. 
+
+Additionally, [Majestic](https://github.com/Raathigesh/majestic/) is used as a UI for Jest. 
+
+### [Cypress](https://github.com/cypress-io/cypress)
+For Browser-based integration tests. Watches source code and automatically executes all tests on every change. With time-travel and real debugging, also records videos for failing tests.
+
+[cypress-testing-library](https://github.com/testing-library/cypress-testing-library) is another lightweight toolset to query dom elements.  
+
+### [Storybook](https://github.com/storybooks/storybook)
+Visualize isolated components for development and testing. Also for creating style guides. Addons provide additional benefits like switching between mobile viewports or automatic a11y profiling. 
+
+
