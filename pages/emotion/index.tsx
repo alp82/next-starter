@@ -47,13 +47,16 @@ const Combined = styled.div`
   }
 `
 
-const Animated = styled.div`
+interface AnimatedProps {
+  animation?: string
+}
+const Animated =  styled.div<AnimatedProps>`
   ${basicStyles};
   ${hoverStyles};
   & code {
     background-color: linen;
   }
-  animation: ${(props): string => props.animation} 0.2s infinite
+  animation: ${({ animation }) => animation} 0.2s infinite
     ease-in-out alternate;
 `
 
