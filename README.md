@@ -10,6 +10,7 @@ Next.js starter project with typescript, hooks, eslint, prettier, immer, emotion
 * Integration tests with Cypress
 * Nice UI's for both test frameworks with real-time watchers via native Cypress and Majestic
 * Storybook with Typescript, React and Hook support
+* Git hooks to prevent committing and pushing bad code
 
 ## Getting started
 * Clone this repository and `cd` into it
