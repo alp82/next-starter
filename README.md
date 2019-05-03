@@ -49,6 +49,9 @@ Run all integration tests with headless cypress.
 ### `yarn run test:e2e:ui`
 Run all integration tests with cypress UI.
 
+### `yarn run lint:staged`
+Run all linters and autofix issues on staged files.
+
 ### `yarn run typecheck`
 Perform type analysis on all source files.
 
