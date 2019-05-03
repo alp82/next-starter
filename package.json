@@ -15,6 +15,7 @@
     "test:unit:ui": "majestic",
     "test:e2e": "cypress run",
     "test:e2e:ui": "cypress open",
+    "lint:staged": "lint-staged",
     "typecheck": "tsc",
     "storybook": "start-storybook -p 6006",
     "storybook:build": "build-storybook"
@@ -64,6 +65,7 @@
     "eslint-plugin-react": "^7.12.4",
     "husky": "^2.2.0",
     "jest": "^24.7.1",
+    "lint-staged": "^8.1.6",
     "majestic": "^1.4.1",
     "prettier": "^1.17.0",
     "react-testing-library": "^6.1.2",
